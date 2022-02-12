@@ -182,3 +182,67 @@ header {
 h3 {
   padding: 10px 0;
 }
+
+.how-to-maki a {
+  background: grey;
+  color: white;
+  padding: 5px 30px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  width: 100%;
+  height: 30px;
+}
+
+/* HOW TO ROLL */
+
+.roll-article {
+  position: relative;
+  min-width: 350px;
+  max-width: 600px;
+  margin: 5em auto;
+  line-height: 1em;
+  padding: 0 2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* MAKI VEGGIE CONTENT */
+
+.avocado-maki {
+  margin: 3em auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.avocado-maki h2 {
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.avocado-maki img {
+  width: 70%;
+  margin: 0.5em;
+}
+
+.kappa-maki {
+  margin: 3em auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.kappa-maki h2 {
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.kappa-maki img {
+  width: 70%;
+  margin: 0.5em;
+}
