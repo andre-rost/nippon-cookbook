@@ -1,248 +1,252 @@
 html {
-  box-sizing: border-box;
-  font-family: "Roboto", Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 *,
 *:before,
-/ *:after {
-  box-sizing: inherit;
+*:after {
+    box-sizing: inherit;
 }
 
 body {
-  background-image: url("https://i.ibb.co/B3sS411/sushi.png");
-  background-repeat: no-repeat;
-  background-position: auto;
-  min-width: 375px;
-  background-size: 100%;
-  background-position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  color: white;
+    background-image: url("https://i.ibb.co/B3sS411/sushi.png");
+    background-repeat: no-repeat;
+    background-position: auto;
+    min-width: 375px;
+    background-size: 100%;
+    background-position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: white;
 }
+
 
 /* Header */
 
 h1 {
-  font-size: 4rem;
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 4px 4px #69646e;
-  letter-spacing: 0.3rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px #69646e;
+    letter-spacing: 0.3rem;
 }
 
 .header-description p {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 1.3em;
-  font-style: italic bold;
-  color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.3em;
+    font-style: italic bold;
+    color: white;
 }
+
 
 /* Cards */
+
 .cards a:link,
 a:visited {
-  background: #525252;
-  color: white;
-  padding: 40px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 20px;
-  width: 200px;
-  height: 120px;
+    background: #525252;
+    color: white;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    width: 200px;
+    height: 120px;
 }
 
-.cards p {
-}
+.cards p {}
 
 .cards {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  margin-top: 3rem;
-  grid-template-columns: 120px 120px;
-  align-items: start;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 3rem;
+    grid-template-columns: 120px 120px;
+    align-items: start;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .maki {
-  width: 300px;
-  padding: 50px;
-  margin: 0 auto;
-  margin: 2rem 2rem;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    margin: 2rem 2rem;
 }
 
 .sashimi {
-  width: 300px;
-  padding: 50px;
-  margin: 0 auto;
-  margin: 2rem 2rem;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    margin: 2rem 2rem;
 }
 
-.nigiri {
-}
+.nigiri {}
 
 .american {
-  width: 300px;
-  padding: 50px;
-  margin: 0 auto;
-  margin: 2rem 2rem;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    margin: 2rem 2rem;
 }
 
 header {
-  height: 60px;
-  border: 1px solid #69646e;
-  background-color: #69646e;
-  width: 100%;
-  z-index: 1;
-  display: flex;
-  overflow: hidden;
-  justify-content: right;
-  text-align: right;
+    height: 60px;
+    border: 1px solid #69646e;
+    background-color: #69646e;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    justify-content: right;
+    text-align: right;
 }
+
 
 /* Maki.html specific CSS */
 
 .navlinks nav li {
-  align-content: center;
-  float: left;
-  margin-top: 1.2rem;
-  padding-right: 0.5rem;
+    align-content: center;
+    float: left;
+    margin-top: 1.2rem;
+    padding-right: 0.5rem;
 }
 
 .navlinks a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .maki-content {
-  margin-top: 4rem;
+    margin-top: 4rem;
 }
 
 .maki-veg {
-  width: 200px;
-  height: 200px;
-  padding: 1px 25px;
-  margin: 70px auto;
+    width: 200px;
+    height: 200px;
+    padding: 1px 25px;
+    margin: 70px auto;
 }
 
 .maki-tuna {
-  width: 200px;
-  height: 200px;
-  padding: 1px 25px;
-  margin: 70px auto;
+    width: 200px;
+    height: 200px;
+    padding: 1px 25px;
+    margin: 70px auto;
 }
 
 .maki-salmon {
-  width: 200px;
-  height: 200px;
-  padding: 1px 25px;
-  margin: 70px auto;
+    width: 200px;
+    height: 200px;
+    padding: 1px 25px;
+    margin: 70px auto;
 }
 
 .maki-salmon img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .maki-veg img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .maki-tuna img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .maki-content a {
-  background: #69646e;
-  color: white;
-  padding: 5px 30px;
-  margin-top: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 15px;
-  width: 100%;
-  height: 30px;
+    background: #69646e;
+    color: white;
+    padding: 5px 30px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
 }
 
 .maki-content li {
-  display: inline;
+    display: inline;
 }
 
 h3 {
-  padding: 10px 0;
+    padding: 10px 0;
 }
 
 .how-to-maki a {
-  background: grey;
-  color: white;
-  padding: 5px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  border-radius: 15px;
-  margin: 2em auto;
-  width: 20%;
-  height: 30px;
+    background: grey;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+    margin: 2em auto;
+    width: 20%;
+    height: 30px;
 }
+
 
 /* HOW TO ROLL */
 
 .roll-article {
-  position: relative;
-  min-width: 350px;
-  max-width: 600px;
-  margin: 5em auto;
-  line-height: 1em;
-  padding: 0 2em;
-  text-align: justify;
-  text-justify: inter-word;
+    position: relative;
+    min-width: 350px;
+    max-width: 600px;
+    margin: 5em auto;
+    line-height: 1em;
+    padding: 0 2em;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
-  margin: 3em auto;
-  width: 50%;
-  /*border: 3px solid green;*/
-  padding: 10px;
-  text-align: center;
+    margin: 3em auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
 }
 
 .avocado-maki h2 {
-  margin: auto;
-  font-size: 1.3em;
+    margin: auto;
+    font-size: 1.3em;
 }
 
 .avocado-maki img {
-  width: 70%;
-  margin: 0.5em;
+    width: 70%;
+    margin: 0.5em;
 }
 
 .kappa-maki {
-  margin: 3em auto;
-  width: 50%;
-  /*border: 3px solid green;*/
-  padding: 10px;
-  text-align: center;
+    margin: 3em auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
 }
 
 .kappa-maki h2 {
-  margin: auto;
-  font-size: 1.3em;
+    margin: auto;
+    font-size: 1.3em;
 }
 
 .kappa-maki img {
-  width: 70%;
-  margin: 0.5em;
+    width: 70%;
+    margin: 0.5em;
 }
