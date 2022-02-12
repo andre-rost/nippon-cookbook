@@ -1,0 +1,1 @@
+-index buttons text not centered
