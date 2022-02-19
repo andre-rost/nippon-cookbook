@@ -190,6 +190,7 @@ header {
 
 h3 {
     padding: 10px 0;
+    font-size: 1.4em;
 }
 
 .how-to-maki a {
@@ -197,7 +198,7 @@ h3 {
     display: block;
     background: white;
     color: #69646e;
-    padding: 5px 30px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 15px;
@@ -245,19 +246,20 @@ h3 {
 
 .kappa-maki {
   margin: 3em auto;
-  width: 50%;
-  /*border: 3px solid green;*/
+  width: 80%;
+  border: 3px solid green;
   padding: 10px;
   text-align: center;
 }
 
 .kappa-maki h2 {
-  margin: auto;
+  margin: 0.5em auto;
   font-size: 1.3em;
+  position: relative;
 }
 
 .kappa-maki img {
-  width: 70%;
+  width: 50%;
   margin: 0.5em;
 }
 
@@ -279,3 +281,49 @@ h3 {
     display: flex;
   }
 }
+
+
+/* MAKI SALMON CONTENT */
+
+.salmon-maki {
+  margin: 3em auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.salmon-maki h2 {
+  margin: 0.5em auto;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.salmon-maki img {
+  width: 50%;
+  margin: 0.5em;
+}
+
+/* MAKI TUNA CONTENT */
+
+.tuna-maki {
+  margin: 3em auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.tuna-maki h2 {
+  margin: 0.5em auto;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.tuna-maki img {
+  width: 50%;
+  margin: 0.5em;
+}
+
+
+
