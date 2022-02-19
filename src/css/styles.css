@@ -225,36 +225,35 @@ h3 {
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
-
-    margin: 3em auto;
-    width: 50%;
-    /*border: 3px solid green;*/
-    padding: 10px;
-    text-align: center;
+  margin: 3em auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
 }
 
 .avocado-maki h2 {
-    margin: auto;
-    font-size: 1.3em;
+  margin: 0.5em auto;
+  font-size: 1.3em;
+  position: relative;
 }
 
 .avocado-maki img {
-    width: 70%;
-    margin: 0.5em;
-
+  width: 50%;
+  margin: 0.5em;
 }
 
 .kappa-maki {
-    margin: 3em auto;
-    width: 50%;
-    /*border: 3px solid green;*/
-    padding: 10px;
-    text-align: center;
+  margin: 3em auto;
+  width: 50%;
+  /*border: 3px solid green;*/
+  padding: 10px;
+  text-align: center;
 }
 
 .kappa-maki h2 {
-    margin: auto;
-    font-size: 1.3em;
+  margin: auto;
+  font-size: 1.3em;
 }
 
 .kappa-maki img {
@@ -280,4 +279,3 @@ h3 {
     display: flex;
   }
 }
-
