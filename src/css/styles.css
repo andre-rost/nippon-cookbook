@@ -5,7 +5,8 @@ html {
 
 *,
 *:before,
-*:after {
+*:after 
+{
     box-sizing: inherit;
 }
 
@@ -20,6 +21,7 @@ body {
     height: 100%;
     background-color: black;
     color: white;
+
 }
 
 
@@ -35,6 +37,10 @@ h1 {
     letter-spacing: 0.3rem;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
 .header-description p {
     font-size: 1.5rem;
     text-align: center;
@@ -48,6 +54,7 @@ h1 {
 
 .cards a:link,
 a:visited {
+
     background: #525252;
     color: white;
     margin: auto;
@@ -87,11 +94,11 @@ a:visited {
     padding: 1em;
 }
 
+
 .nigiri {
     width: 300px;
     padding: 1em;
 }
-
 .american {
     width: 300px;
     padding: 1em;
@@ -186,6 +193,7 @@ h3 {
 }
 
 .how-to-maki a {
+
     display: block;
     background: white;
     color: #69646e;
@@ -210,12 +218,14 @@ h3 {
     padding: 0 2em;
     text-align: justify;
     text-justify: inter-word;
+
 }
 
 
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
+
     margin: 3em auto;
     width: 50%;
     /*border: 3px solid green;*/
@@ -231,6 +241,7 @@ h3 {
 .avocado-maki img {
     width: 70%;
     margin: 0.5em;
+
 }
 
 .kappa-maki {
@@ -247,6 +258,26 @@ h3 {
 }
 
 .kappa-maki img {
-    width: 70%;
-    margin: 0.5em;
+  width: 70%;
+  margin: 0.5em;
 }
+
+.ingredient-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.ingredients li {
+  list-style: disc;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .same-line-query {
+    display: flex;
+  }
+}
+
