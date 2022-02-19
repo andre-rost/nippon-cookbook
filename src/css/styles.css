@@ -31,7 +31,7 @@ h1 {
     margin-top: 2rem;
     font-weight: bold;
     color: white;
-    text-shadow: 4px 4px #69646e;
+    text-shadow: 4px 4px #ffae66;
     letter-spacing: 0.3rem;
 }
 
@@ -44,7 +44,8 @@ h2 {
     text-align: center;
     margin-top: 1.3em;
     font-style: italic bold;
-    color: white;
+    color: #ffae66;
+    ;
 }
 
 
@@ -52,7 +53,7 @@ h2 {
 
 .cards a:link,
 a:visited {
-    background: #525252;
+    background: #000000;
     color: white;
     margin: auto;
     text-align: center;
@@ -103,8 +104,10 @@ a:visited {
 
 header {
     height: 60px;
-    border: 1px solid #69646e;
-    background-color: #69646e;
+    border: 1px solid #ffae66;
+    ;
+    background-color: #black;
+    ;
     width: 100%;
     z-index: 1;
     display: flex;
@@ -327,7 +330,7 @@ h3 {
 }
 
 .how-to-sashimi a {
-    display: inline;
+    display: block;
     background: white;
     color: #69646e;
     padding: 5px 30px;
@@ -437,6 +440,15 @@ h3 {
 }
 
 
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .same-line-query {
+        display: flex;
+    }
+}
+
+
 /* MAKI SALMON CONTENT */
 
 .salmon-maki {
@@ -476,48 +488,4 @@ h3 {
 .tuna-maki img {
     width: 50%;
     margin: 0.5em;
-}
-
-
-/* AMERICAN CONTENT */
-
-.buffalo-chicken-sushi {
-    margin: 3em auto;
-    width: 80%;
-    /* border: 3px solid green; */
-    padding: 10px;
-    text-align: center;
-}
-
-.buffalo-chicken-sushi h2 {
-    margin: 0.5em auto;
-    font-size: 1.3em;
-    position: relative;
-}
-
-.buffalo-chicken-sushi img {
-    width: 50%;
-    margin: 0.5em;
-}
-
-.ingredient-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-.ingredients li {
-    list-style: disc;
-    text-align: left;
-}
-
-
-/* MEDIA QUERIES */
-
-@media (min-width: 768px) {
-    .same-line-query {
-        display: flex;
-    }
 }
