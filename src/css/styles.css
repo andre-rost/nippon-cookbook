@@ -217,12 +217,13 @@ h3 {
     text-justify: inter-word;
 }
 
+
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
     margin: 3em auto;
     width: 80%;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding: 10px;
     text-align: center;
 }
@@ -239,21 +240,21 @@ h3 {
 }
 
 .kappa-maki {
-
     margin: 3em auto;
-    width: 50%;
-    /*border: 3px solid green;*/
+    width: 80%;
+    /* border: 3px solid green; */
     padding: 10px;
     text-align: center;
 }
 
 .kappa-maki h2 {
-    margin: auto;
+    margin: 0.5em auto;
     font-size: 1.3em;
+    position: relative;
 }
 
 .kappa-maki img {
-    width: 70%;
+    width: 50%;
     margin: 0.5em;
 }
 
@@ -335,7 +336,7 @@ h3 {
 }
 
 .how-to-sashimi a {
-    display: block;
+    display: inline;
     background: white;
     color: #69646e;
     padding: 5px 30px;
@@ -409,7 +410,6 @@ h3 {
     align-items: center;
 }
 
-
 .ingredients li {
     list-style: disc;
     text-align: left;
@@ -450,52 +450,89 @@ h3 {
 }
 
 
+/* MAKI SALMON CONTENT */
+
+.salmon-maki {
+    margin: 3em auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+}
+
+.salmon-maki h2 {
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.salmon-maki img {
+    width: 50%;
+    margin: 0.5em;
+}
+
+
+/* MAKI TUNA CONTENT */
+
+.tuna-maki {
+    margin: 3em auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.tuna-maki h2 {
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.tuna-maki img {
+    width: 50%;
+    margin: 0.5em;
+}
+
+
+/* AMERICAN CONTENT */
+
+.buffalo-chicken-sushi {
+    margin: 3em auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+}
+
+.buffalo-chicken-sushi h2 {
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.buffalo-chicken-sushi img {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.ingredient-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.ingredients li {
+    list-style: disc;
+    text-align: left;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
     .same-line-query {
         display: flex;
     }
-}
-
-/* MAKI SALMON CONTENT */
-
-.salmon-maki {
-  margin: 3em auto;
-  width: 80%;
-  border: 3px solid green;
-  padding: 10px;
-  text-align: center;
-}
-
-.salmon-maki h2 {
-  margin: 0.5em auto;
-  font-size: 1.3em;
-  position: relative;
-}
-
-.salmon-maki img {
-  width: 50%;
-  margin: 0.5em;
-}
-
-/* MAKI TUNA CONTENT */
-
-.tuna-maki {
-  margin: 3em auto;
-  width: 80%;
-  border: 3px solid green;
-  padding: 10px;
-  text-align: center;
-}
-
-.tuna-maki h2 {
-  margin: 0.5em auto;
-  font-size: 1.3em;
-  position: relative;
-}
-
-.tuna-maki img {
-  width: 50%;
-  margin: 0.5em;
 }
