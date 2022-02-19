@@ -5,8 +5,7 @@ html {
 
 *,
 *:before,
-*:after 
-{
+*:after {
     box-sizing: inherit;
 }
 
@@ -21,7 +20,6 @@ body {
     height: 100%;
     background-color: black;
     color: white;
-
 }
 
 
@@ -38,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 .header-description p {
@@ -54,7 +52,6 @@ h2 {
 
 .cards a:link,
 a:visited {
-
     background: #525252;
     color: white;
     margin: auto;
@@ -94,11 +91,11 @@ a:visited {
     padding: 1em;
 }
 
-
 .nigiri {
     width: 300px;
     padding: 1em;
 }
+
 .american {
     width: 300px;
     padding: 1em;
@@ -194,7 +191,6 @@ h3 {
 }
 
 .how-to-maki a {
-
     display: block;
     background: white;
     color: #69646e;
@@ -219,69 +215,248 @@ h3 {
     padding: 0 2em;
     text-align: justify;
     text-justify: inter-word;
-
 }
-
 
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
-  margin: 3em auto;
-  width: 80%;
-  border: 3px solid green;
-  padding: 10px;
-  text-align: center;
+    margin: 3em auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
 }
 
 .avocado-maki h2 {
-  margin: 0.5em auto;
-  font-size: 1.3em;
-  position: relative;
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    position: relative;
 }
 
 .avocado-maki img {
-  width: 50%;
-  margin: 0.5em;
+    width: 50%;
+    margin: 0.5em;
 }
 
 .kappa-maki {
-  margin: 3em auto;
-  width: 80%;
-  border: 3px solid green;
-  padding: 10px;
-  text-align: center;
+
+    margin: 3em auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
 }
 
 .kappa-maki h2 {
-  margin: 0.5em auto;
-  font-size: 1.3em;
-  position: relative;
+    margin: auto;
+    font-size: 1.3em;
 }
 
 .kappa-maki img {
-  width: 50%;
-  margin: 0.5em;
+    width: 70%;
+    margin: 0.5em;
 }
 
 .ingredient-list {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .ingredients li {
-  list-style: disc;
-  text-align: left;
+    list-style: disc;
+    text-align: left;
 }
+
+
+/* Sashimi.html specific CSS */
+
+.navlinks nav li {
+    align-content: center;
+    float: left;
+    margin-top: 1.2rem;
+    padding-right: 0.5rem;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.sashimi-content {
+    margin-top: 4rem;
+}
+
+.sashimi-salmon {
+    width: 200px;
+    height: 200px;
+    padding: 1px 25px;
+    margin: 70px auto;
+}
+
+.sashimi-tataki-tuna {
+    width: 200px;
+    height: 200px;
+    padding: 1px 25px;
+    margin: 70px auto;
+}
+
+.sashimi-salmon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sashimi-tataki-tuna img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sashimi-content a {
+    background: #69646e;
+    color: white;
+    padding: 5px 30px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+}
+
+.sashimi-content li {
+    display: inline;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+.how-to-sashimi a {
+    display: block;
+    background: white;
+    color: #69646e;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 2em auto;
+    width: 40%;
+    height: 30px;
+}
+
+
+/* HOT TO PREPARE */
+
+.prepare-sashimi {
+    position: relative;
+    min-width: 350px;
+    max-width: 600px;
+    margin: 5em auto;
+    line-height: 1em;
+    padding: 0 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* SASHIMI SALMON CONTENT */
+
+.sashimi-salmon-content {
+    margin: 3em auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+}
+
+.sashimi-salmon-content h2 {
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.sashimi-salmon-content img {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.sashimi-tuna-content {
+    margin: 3em auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.sashimi-tuna-content h2 {
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.sashimi-tuna-content img {
+    width: 70%;
+    margin: 0.5em;
+}
+
+.ingredient-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.ingredients li {
+    list-style: disc;
+    text-align: left;
+}
+
+
+/* TATAKI TUNA CONTENT */
+
+.tataki-tuna-content {
+    margin: 3em auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.tataki-tuna-content h2 {
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.tataki-tuna-content img {
+    width: 70%;
+    margin: 0.5em;
+}
+
+.ingredient-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.ingredients li {
+    list-style: disc;
+    text-align: left;
+}
+
+
+/* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-  .same-line-query {
-    display: flex;
-  }
+    .same-line-query {
+        display: flex;
+    }
 }
-
 
 /* MAKI SALMON CONTENT */
 
@@ -324,6 +499,3 @@ h3 {
   width: 50%;
   margin: 0.5em;
 }
-
-
-
