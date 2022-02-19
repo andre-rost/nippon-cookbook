@@ -198,8 +198,8 @@ h3 {
     text-align: center;
     text-decoration: none;
     border-radius: 15px;
-    margin: 2em auto;
-    width: 40%;
+    margin: 1.2em auto;
+    width: 50%;
     height: 30px;
 }
 
@@ -210,7 +210,7 @@ h3 {
     position: relative;
     min-width: 350px;
     max-width: 600px;
-    margin: 5em auto;
+    margin: 1.3em auto;
     line-height: 1em;
     padding: 0 2em;
     text-align: justify;
@@ -221,9 +221,8 @@ h3 {
 /* MAKI VEGGIE CONTENT */
 
 .avocado-maki {
-    margin: 3em auto;
+    margin: 1.4em auto;
     width: 80%;
-    /* border: 3px solid green; */
     padding: 10px;
     text-align: center;
 }
@@ -240,31 +239,23 @@ h3 {
 }
 
 .kappa-maki {
-    margin: 3em auto;
-    width: 80%;
-    /* border: 3px solid green; */
-    padding: 10px;
-    text-align: center;
+  margin: 1.4em auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
 }
 
 .kappa-maki h2 {
-    margin: 0.5em auto;
-    font-size: 1.3em;
-    position: relative;
+  margin: 0.5em auto;
+  font-size: 1.3em;
+  position: relative;
 }
 
 .kappa-maki img {
-    width: 50%;
-    margin: 0.5em;
-}
+  width: 50%;
+  margin: 0.5em;
 
-.ingredient-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
+
 
 .ingredients li {
     list-style: disc;
@@ -362,6 +353,9 @@ h3 {
     text-justify: inter-word;
 }
 
+/* HOw TO DO */
+
+
 
 /* SASHIMI SALMON CONTENT */
 
@@ -402,13 +396,6 @@ h3 {
     margin: 0.5em;
 }
 
-.ingredient-list {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
 
 .ingredients li {
     list-style: disc;
@@ -453,12 +440,11 @@ h3 {
 /* MAKI SALMON CONTENT */
 
 .salmon-maki {
-    margin: 3em auto;
-    width: 80%;
-    /* border: 3px solid green; */
-    padding: 10px;
-    text-align: center;
-}
+  margin: 1.4em auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  }
 
 .salmon-maki h2 {
     margin: 0.5em auto;
@@ -475,11 +461,10 @@ h3 {
 /* MAKI TUNA CONTENT */
 
 .tuna-maki {
-    margin: 3em auto;
-    width: 80%;
-    border: 3px solid green;
-    padding: 10px;
-    text-align: center;
+  margin: 1.4em auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
 }
 
 .tuna-maki h2 {
